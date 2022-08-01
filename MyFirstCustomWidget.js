@@ -65,7 +65,7 @@
 
 	</style>;
 
-	constructo() {
+	constructor() {
 		super();
 		this._shadowRoot = this.attachShadow({mode: "open"});
 		this._shadowRoot.appendChild(tmpl.content,cloneNode(true));
